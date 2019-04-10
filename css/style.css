@@ -1,0 +1,23 @@
+body {
+  width: 85%;
+  margin: 0 auto;
+}
+.typing {
+  background: #222;
+  color: #DDD;
+  height: 300px;
+  padding: 2em;
+}
+.typing > * {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typingAnim 5s steps(50);
+}
+@keyframes typingAnim{
+  from { width: 0 }
+  to { width: 100% }
+}
+.jumbo {
+  font-size: 4em;
+  font-weight: 100;
+}
